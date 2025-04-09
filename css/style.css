@@ -1,0 +1,68 @@
+/*================
+      Geral
+==================*/
+
+body{
+    background-color: antiquewhite;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #21243D;
+}
+a{
+    color: #21243D;
+    text-decoration: none;
+}
+html {
+    font-size: calc(15px + 0.390625vw);
+}
+p{
+    line-height: 130%;
+}
+
+/*================
+    especifico
+==================*/
+
+header ul li{
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+section.banner{
+    text-align: center;
+    padding: 0 5% 0  5%;
+}
+section.banner h1{
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 10px 0 10px 0;
+}
+section.banner div button{
+    background-color: #FF6464;
+    border: none;
+    color: white;
+    display: inline-block;
+    margin: 10px 0 50px;
+    padding: 5px 10px;
+    font-size: 1.2rem;
+}
+
+section.post{
+    background-color: #EDF7FA;
+    padding: 10px;
+}
+section.post h2{
+    text-align: center;
+    margin: 15px;
+}
+section.post ul li{
+    border-radius: 10px;
+    background-color: white;
+    padding: 15px;
+    margin: 12px 10px 12px 10px;
+}
+section.post ul li h3{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+section.post ul li p {
+    font-size: ;    
+}
