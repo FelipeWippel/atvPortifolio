@@ -3,7 +3,6 @@
 ==================*/
 
 body{
-    background-color: antiquewhite;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #21243D;
 }
@@ -16,6 +15,13 @@ html {
 }
 p{
     line-height: 130%;
+}
+section h2{
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
 }
 
 /*================
@@ -50,8 +56,7 @@ section.post{
     padding: 10px;
 }
 section.post h2{
-    text-align: center;
-    margin: 15px;
+    margin: 15px 0 15px 0;
 }
 section.post ul li{
     border-radius: 10px;
@@ -62,4 +67,42 @@ section.post ul li{
 section.post ul li h3{
     font-weight: bold;
     font-size: 1.2rem;
+}
+section.post ul li p{
+        margin: 20px 0 0 0;
+}
+section.works{
+    padding: 20px 10px 20px 10px;
+}
+section.works ul li{
+    padding: 15px 0;
+}
+section.works ul li h3{
+    font-weight: bold;
+    font-size: 1.3rem;
+    line-height: 130%;
+    margin: 15px 0px 15px 0px;
+}
+section.works ul li p.info{
+    color: #8695A4;
+    margin: 15px 0px 15px 0px;
+}
+section.works ul li p.info span{
+    color: white;
+    background-color: #142050;
+    font-weight: bold;
+    padding: 3px 10px;
+    border-radius: 20px;
+}
+section.works ul{
+    border-bottom: 1px solid black;
+}
+
+footer p a{
+    margin: 10px 15px;
+    font-size: 2.3rem;
+}
+footer{
+    text-align: center;
+    margin: 10px 15px;
 }
