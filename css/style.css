@@ -152,10 +152,12 @@ footer{
         padding: 5vw 10vw;
     }
     section.works ul li img{
-        width: 80%;
+        width: 100%;
     }
     section.works ul li{
-        width: 80%;
+        max-width: 80%;
+        padding: 20px;
         
     }
+
 }
